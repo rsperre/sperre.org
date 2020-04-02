@@ -20,13 +20,20 @@
 
 title: sperre.org
 email: contact@sperre.org
+tagline: The personal webpage of Rune Sperre
 description: >- # this means to ignore newlines until "baseurl:"
-  The personal webpage of Rune Sperre
+  How to get in touch with Rune Sperre
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sperre.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sperre
 github_username:  rsperre
-
+social:
+  name: Rune Sperre
+  links:
+    - https://twitter.com/Sperre
+    - https://facebook.com/rsperre
+    - https://github.com/rsperre
+    - https://www.linkedin.com/in/runesperre/
 # Build settings
 #theme: minima
 remote_theme: thelehhman/texture
@@ -48,6 +55,7 @@ texture:
       url: "https://blog.sperre.org"    
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
