@@ -39,7 +39,7 @@ social:
 remote_theme: thelehhman/texture
 texture:
   title: Rune Sperre
-  tagline: SharePoint Developer
+  tagline: Microsoft 365 Developer
   date_format: "%b %-d, %Y"
   style: black
   showPicker: false
